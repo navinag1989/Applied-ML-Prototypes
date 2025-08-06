@@ -1,6 +1,25 @@
 name: Cloudera
 
-entries:    
+entries:
+  - title: Agentic Security Analysis
+    label: AgenticSecurityAnalysis
+    short_description: |
+        Deploy intelligent multi-agent systems via notebook or Agent Studio to perform OWASP security analysis on GitHub codebases.
+    long_description: |
+      The Agentic Security AMP is a multi-agent artificial intelligence system designed to perform automated security analysis on software repositories. This system demonstrates how multiple specialized AI agents can collaborate through directed workflows to analyze codebases for security vulnerabilities, documentation gaps, and test coverage issues.
+    long_description_html: |
+      The Agentic Security AMP is a multi-agent artificial intelligence system designed to perform automated security analysis on software repositories. This system demonstrates how multiple specialized AI agents can collaborate through directed workflows to analyze codebases for security vulnerabilities, documentation gaps, and test coverage issues.
+      <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
+      <div style="margin-top:10px">This AMP is optional software that you may use as a reference, for example, for creating your AI projects. Cloudera makes the AMP available "as is," without warrant or support of any kind, and Cloudera is not liable to you in any way for your use of the AMP. This AMP also includes or otherwise depends on certain third party software packages. Information about such third party software packages are made available in the notice file associated with this AMP. By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites. For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.</div>
+      <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP. By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for your use of the AMP and the third party software packages.</div>
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/CAI_AMP_Agentic_Security_Scanning/refs/heads/main/assets/images/amp-card.png
+    tags:
+      - Agents
+      - Security
+    git_url: "https://github.com/cloudera/CAI_AMP_Agentic_Security_Scanning.git"
+    is_prototype: true
+    is_new: true
   - title: Knowledge Distillation for Customer Support LLMs
     label: KnowledgeDistillationForCustomerSupportUseCase
     short_description: |
